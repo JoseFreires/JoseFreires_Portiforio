@@ -1,0 +1,102 @@
+body{
+    background-color: #171810;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerPrincipalNavbar{
+    background-color: #171810;
+}
+
+.nav-link{
+    color: #FF5831;
+}
+
+#containerBackground{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url("/assets/fundo_portfolio.png");
+    background-size: contain;
+    height: 95vh;
+}
+
+#logoJoseFreires{
+    width: 350px;
+    border-radius: 100%;
+    animation: falling 2s linear infinite alternate;
+    margin-left: 50px;
+}
+
+#containerSobreMim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#contentSobreMim, #contentEducacao{
+    margin: 10px;
+}
+
+h1  {
+    color: #FF5831;
+}
+
+#contentSobreMim p{
+    color: #FFF;
+    text-align: justify;
+}
+
+#containerEducacaoLogo, #containerHabilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#logoEducacao{
+    width: 200px;
+}
+
+
+#tituloHabilidades{
+    text-align: start;
+}
+
+#accordionHabilidades{
+    width: 85%;
+}
+
+.accordion-body{
+    background-color: #545454;
+    color: #FFF;
+}
+
+.accordion-button{
+    color: #FF5831;
+}
+
+#logoHabilidades{
+    width: 100px;
+}
+
+#containerTituloProjetos{
+    margin-right: 10px;
+}
+
+#buttonCard{
+    background-color: #FF5831;
+    font-weight: bold;
+}
+
+@keyframes falling {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(70px);
+    }
+}
