@@ -23,7 +23,7 @@ body{
 }
 
 #logoJoseFreires{
-    width: 350px;
+    width: 70%;
     border-radius: 100%;
     animation: falling 2s linear infinite alternate;
     margin-left: 50px;
